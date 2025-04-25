@@ -2,7 +2,7 @@
 
 class View { 
  
-    public static function render($layout, $content, $data = null) { 
+    public static function render($layout, $content, $data) { 
         if(is_array($data)) { 
             extract($data); 
         } 

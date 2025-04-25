@@ -3,6 +3,7 @@
 class Controller_Base
 {
     public $layout = 'public';
+    
 
     public function render($content, $data = null)
     {
